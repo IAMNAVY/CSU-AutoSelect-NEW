@@ -4,10 +4,11 @@
 
 > 🚀 **重构更新**：摒弃笨重的 Selenium 浏览器自动化，改用 Requests + AES 加密直接模拟登录协议。速度更快，无需配置浏览器驱动，内存占用极低。
 
-原始作者：[@DavidHuang](https://github.com/CrazyDaveHDY)
-二次更新：[@chichuxwx](https://github.com/chichuxwx)
-
 当前重构：[@IAMGBYYY](https://www.google.com/search?q=https://github.com/IAMGBYYY)
+
+原始作者：[@DavidHuang](https://github.com/CrazyDaveHDY)
+
+二次更新：[@chichuxwx](https://github.com/chichuxwx)
 
 ---
 
@@ -94,10 +95,12 @@ python main.py
 
 ## 📝 常见问题
 
-**Q: 运行报错 `ModuleNotFoundError: No module named 'Crypto'**`
+**Q: 运行报错 `ModuleNotFoundError: No module named 'Crypto'`**
+
 A: 请执行 `pip uninstall crypto pycrypto` 清理旧库，然后执行 `pip install pycryptodome`。
 
 **Q: 需要验证码吗？**
+
 A: 目前版本的协议登录无法处理强制弹出的图片验证码。如果学校服务器开启了强制验证码（通常在输错密码多次或高频请求后），脚本可能会登录失败。建议稍后重试或在网页端手动登录一次以解除风控。
 
 
