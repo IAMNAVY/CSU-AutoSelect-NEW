@@ -71,7 +71,7 @@ class AutoSelector:
                 return
 
             print("… 未开放，请稍后重试")
-            time.sleep(0.5)
+            time.sleep(20)
 
     def try_select(self, url, index):
         cid = self.course_ids[index]
@@ -117,6 +117,6 @@ class AutoSelector:
                 else:
                     index += 1 
 
-                time.sleep(0.5)
+                time.sleep(20)
 
         print("\n 所有课程均已处理完毕！")
