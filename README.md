@@ -4,7 +4,7 @@
 
 > 🚀 **重构更新**：摒弃笨重的 Selenium 浏览器自动化，改用 Requests + AES 加密直接模拟登录协议。速度更快，无需配置浏览器驱动，内存占用极低。
 
-当前重构：[@IAMGBYYY](https://www.google.com/search?q=https://github.com/IAMGBYYY)
+当前重构：[@IAMGBYYY](https://github.com/IAMGBYYY)
 
 原始作者：[@DavidHuang](https://github.com/CrazyDaveHDY)
 
